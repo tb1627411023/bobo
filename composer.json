@@ -1,20 +1,21 @@
 {
-    "name": "tb/tb_debug",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "tb1627411023/tb_debug",
+    "description": "xiaobo tb_debug",
+    "keywords": ["xiaobo","tb_debug"],
+    "homepage": "https://github.com/tanteng/laravel-page-loaded-time",
+    "type":"library",
     "license": "MIT",
-    "type": "project",
-    "require": {
-        "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
-    },
-    "config": {
-        "preferred-install": "dist"
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
+    "authors": [
+      {
+        "name": "xiaobo",
+        "email": "1627411023@qq.com",
+        "homepage": "http://www.xiaobo.me",
+        "role": "Leader"
+      }
+    ],
+    "autoload": {
+      "files": [
+            "tools.php"
+      ]
     }
 }
